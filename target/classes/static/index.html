@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formativa</title>
+    <link rel="stylesheet" href="romeu.css">
+    <script src="wakawaka.js"></script>
+</head>
+<body>
+    <h1>Gerenciamento de livros 📖</h1>
+    <center>
+    <div id="cadastro">
+        <h2>Cadastro de Livros 📚</h2>
+        <form id="cadastroForm">
+            <label for="name">Descrição</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="plataform">Isbn:</label>
+            <input type="text" id="plataform" name="plataform" required><br>
+
+            <p></p>
+            <button type="submit">➕Salvar</button>
+            <button type="button" onclick="atualizarJogo()">🔁Atualizar</button>
+            <button type="button" onclick="excluirJogo()">❌Apagar</button>
+        </form>
+    </div>
+    
+    <div id="pesquisa">
+        <h2>Pesquisa de Livros 📚</h2>
+        <form id="pesquisaForm">
+            <label for="searchId">ID do livro:</label>
+            <input type="text" id="searchId" name="searchId" required><br>
+
+            <p></p>
+            <button type="button" onclick="pesquisarJogo()">Pesquisar</button>
+        </form>
+        <div id="resultadoPesquisa"></div>
+    </div>
+</center>
+</body>
+</html>

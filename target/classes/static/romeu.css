@@ -1,0 +1,21 @@
+body { 
+    background-image: url("img/sitefundo.png");
+    background-repeat: no-repeat;
+}
+h1{
+    color: #0a3e44;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h2{
+    color: #0a3e44;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+button{
+    color: #0a3e44;
+    background-color: rgb(245, 246, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    height: 23px;
+    width: 95px;
+}
